@@ -27,3 +27,13 @@ Luego de ser detectado, se necesita describir al pixel para poder luego comparar
 
 En particular, la clasificación de features se refiere a la tarea de, dada una categorización, entrenar un modelo para poder identificar a cada imagen o cada keypoint con una clase en particular.
 En este caso, el cómputo del descriptor es el mismo, lo que cambia es que se definen las clases usando NN (creo).
+
+![image](https://github.com/enzoferrari1/ComputerVisionRepo/assets/109885056/cd46b34a-8f91-4519-90bb-6bbf41e695ac)
+
+En esta imagen podemos ver que los puntos rojos corresponden a la localización de features, donde cada uno cuenta con un descriptor que hace posible las correspondencias ilustradas con las líneas azules.
+
+![image](https://github.com/enzoferrari1/ComputerVisionRepo/assets/109885056/c03c3bd8-6567-4b36-b4c7-36291e8fe00e)
+
+En esta imagen podemos ver bounding boxes, que fueron obtenidos mediante la tarea de localización de features, mientras que el tag que describe cada box se obtuvo presumidamente vectorizando cada región y luego dando con la clase usando vecino más cercano.
+
+
